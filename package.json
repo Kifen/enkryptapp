@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "google-protobuf": "^3.12.2",
+    "grpc": "^1.24.3",
+    "grpc-web": "^1.2.0",
+    "js-file-download": "^0.4.12",
+    "protoc-gen-grpc-web": "^1.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

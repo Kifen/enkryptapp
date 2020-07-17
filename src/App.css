@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.individual-item {
+  text-align: left;
+}
+
+.individual-item:hover{
+  background-color: #aaaaaa;
+  cursor: pointer;
+}
+
+.active_item{
+  background-color: #aaaaaa;
+}
+
+
+.individual-item img {
+  height: 0.7rem;
+  margin-right: 2%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +54,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ListContainer {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  margin: 2rem auto;
+  max-width: 30rem;
+  padding: 0.5rem 2rem 2rem;
+  border-radius: 0.2rem;
+  box-shadow: 0.1rem 0.1rem 0.4rem #aaaaaa;
 }
